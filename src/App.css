@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0.75rem;
+}
+
+@media (min-width: 544px) {
+    .container {
+        max-width: 576px; } }
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px; } }
+@media (min-width: 992px) {
+    .container {
+        max-width: 940px; } }
+@media (min-width: 1220px) {
+    .container {
+        max-width: 1140px; } }
+
+.p-1{
+    padding: 1rem;
+}
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.text-light{font-weight:300}
+.text-normal{font-weight:400}
+.text-semibold{font-weight:500}
+.text-bold{font-weight:bold}
+.text-xxl{font-size:3rem}
+.text-xl{font-size:1.50rem}
+.text-lg{font-size:1.35rem}
+.text-md{font-size:1.20rem}
+.text-sm{font-size:1.10rem}
+.text-xs{font-size:.85rem}
+.text-xxs{font-size:.65rem}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
